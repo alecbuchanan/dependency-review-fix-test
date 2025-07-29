@@ -1,0 +1,21 @@
+{
+  "name": "vulnerability-test-project",
+  "version": "1.0.0",
+  "description": "Test project to validate dependency review action vulnerability table fix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lodash": "4.17.19",
+    "express": "4.17.1",
+    "minimist": "1.2.5",
+    "axios": "0.21.0"
+  },
+  "devDependencies": {
+    "jest": "26.0.0"
+  },
+  "keywords": ["test", "vulnerabilities"],
+  "author": "Test Author",
+  "license": "MIT"
+}

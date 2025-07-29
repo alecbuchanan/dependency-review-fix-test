@@ -1,0 +1,22 @@
+name: Test Dependency Review Action
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  dependency-review:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - name: 'Checkout Repository'
+        uses: actions/checkout@v4
+        
+      - name: 'Dependency Review'
+        uses: ./
+        with:
+          fail-on-severity: low
+          allow-licenses: MIT, Apache-2.0, BSD-3-Clause
+          comment-summary-in-pr: true
