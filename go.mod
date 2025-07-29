@@ -2,10 +2,11 @@ module test-project
 
 go 1.18
 
+
 require (
 	github.com/gin-gonic/gin v1.7.0
 	github.com/gorilla/websocket v1.4.0
-	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/dgrijalva/jwt-go v3.1.0+incompatible
 	github.com/opencontainers/runc v1.0.0-rc92
 	github.com/containerd/containerd v1.4.3
 	github.com/kubernetes/kubernetes v1.20.0
