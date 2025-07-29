@@ -2,6 +2,7 @@ module test-project
 
 go 1.18
 
+
 require (
 	github.com/gin-gonic/gin v1.7.0
 	github.com/gorilla/websocket v1.4.0
