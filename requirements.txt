@@ -1,6 +1,6 @@
 # Python dependencies with known vulnerabilities
 django==2.2.0
-requests==2.20.0
+requests==2.32.4
 pyyaml==3.13
 jinja2==2.10
 flask==1.0.0
