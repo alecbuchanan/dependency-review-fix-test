@@ -1,5 +1,5 @@
 # Python dependencies with known vulnerabilities
-django==2.2.0
+django==4.2.24
 requests==2.20.0
 pyyaml==3.13
 jinja2==2.10
